@@ -13,7 +13,7 @@ cd "%STEAM_CMD_LOCATION%"
 start "" steamcmd.exe +login "%STEAM_USERNAME%" "%STEAM_PASSWORD%" +force_install_dir %~dp0 +app_update 223350 validate
 ```
 - Save the .bat file.
-- Now you need to download SteamCMD Download Here
+- Now you need to download SteamCMD [Download Here](https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip)
 - Put SteamCMD.exe into its own folder. Ex: C:\Servers\SteamCMD
 - I created is own folder because it will download a bunch of Steam files which i do not want to be with my DayZ File server's.
 - Go back to your Bat file and add your SteamCMD Location. This would be in this case C:\Servers\SteamCMD
